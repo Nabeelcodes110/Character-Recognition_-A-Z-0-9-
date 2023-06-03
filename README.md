@@ -14,17 +14,6 @@ DIGIT dataset - rows:70,000          columns:784
 ALPHABETS dataset - rows:370000      columns:784
 
 
-for the detection of character , 
-first we resize and reshape(28*28) the input image using opencv.
-how it detects?
-for detection it reads value from each cell of the image matrix as 0-255 (0 for black and 255 for white).
-then this 28*28=784 values are compared with the dataset and gives the most accurate output.
-
-
-NOTE:
-we divided the pixel-values by 255 for better accuracy than whole numbers(0-255). so 1 is for white and 0 is for black.
-
-
 for the clash of first charcter(A) and first-digit(0) we have created a dictionary.
 
 
